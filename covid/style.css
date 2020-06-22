@@ -1,16 +1,80 @@
-.outer {
-  height: 560px;
+.body {
+  height: 1450px;
   margin: auto;
+  width: 100%;
 }
 
-.inner {
-  padding: 0;
+.layer1-head {
+  /* border: 2px dotted red; */
+  text-align: center;
+}
+
+.layer1 {
+  height: 40%;
+  margin: auto;
   border: 2px solid grey;
 }
 
-.innerinner {
-  border: 2px solid pink;
+.layer1-body {
+  height: 100%;
+}
+.layer2 {
+  height: 60%;
+  margin: auto;
+  border: 2px solid grey;
+}
+.layer2-body {
+  height: 100%;
+}
+
+.layer2-head {
+  /* border: 2px dotted red; */
+  text-align: center;
+}
+
+.layer1-left {
+  /* padding: 0; */
+  /* border: 2px solid grey; */
+}
+
+.layer1-right {
+  /* padding: 0; */
+  /* border: 2px solid grey; */
+  height: 100%;
+}
+
+.layer1-text {
+  /* border: 2px solid grey; */
   height: 50%;
+  width: 100%;
+}
+
+.layer1-sliders {
+  /* border: 2px solid grey; */
+  height: 50%;
+  width: 100%;
+}
+
+.layer2-left {
+  /* padding: 0; */
+  /* border: 2px solid grey; */
+}
+
+.layer2-right {
+  /* padding: 0; */
+  /* border: 2px solid grey; */
+  height: 100%;
+}
+
+.layer2-text {
+  /* border: 2px solid grey; */
+  height: 65%;
+  width: 100%;
+}
+
+.layer2-sliders {
+  /* border: 2px solid grey; */
+  height: 35%;
   width: 100%;
 }
 
@@ -22,7 +86,7 @@ canvas {
 .container {
   text-align: center;
   padding: 0%;
-  height: 85%;
+  /* height: 85%; */
   width: 85%;
   margin: auto;
   margin-top: 5%;
@@ -32,6 +96,10 @@ canvas {
   width: 100%;
 }
 
+.layer2-sliders .cont {
+  height: 25%;
+}
+
 .chart-container {
   padding: 20px;
   position: relative;
@@ -39,6 +107,19 @@ canvas {
   height: 100%;
   width: 100%;
 }
+
+#chart1 {
+  height: 100%;
+}
+
+#chart2 {
+  height: 100%;
+}
+
+.layer2-right .chart-container {
+  padding-top: 25%;
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
